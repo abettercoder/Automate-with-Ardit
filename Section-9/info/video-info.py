@@ -1,6 +1,6 @@
 import cv2
 
-video = cv2.VideoCapture("video.mp4")
+video = cv2.VideoCapture("Section-9/info/video2.mp4")
 
 width = video.get(cv2.CAP_PROP_FRAME_WIDTH)
 height = video.get(cv2.CAP_PROP_FRAME_HEIGHT)
