@@ -6,8 +6,8 @@ success, frame = video.read()
 height = frame.shape[0]
 width = frame.shape[1]
 
-face_cascade = cv2.CascadeClassifier('faces.xml')
-output = cv2.VideoWriter('output.avi',
+face_cascade = cv2.CascadeClassifier('Section-9/find-faces/faces.xml')
+output = cv2.VideoWriter('Section-9/find-faces/output.avi',
                          cv2.VideoWriter_fourcc(*'DIVX'), 30, (width, height))
 
 count = 0
